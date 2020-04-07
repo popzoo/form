@@ -8,7 +8,8 @@
 <link rel="shortcut icon" href="https://rawcdn.githack.com/popzoo/pop/9d4121eed5cbb035e55203b8a9e56a73dcf2e6bf/images/favicon.ico"> 
 <meta content="火力,火力房间" name="Keywords">
 <style type="text/css">
-    body{font:400 14px/21px Arial,serif}.example{width:100%;margin:50px auto;}table{font-size:1em;border-collapse:collapse;margin:0 auto}table,td,th{border:2px solid #999;padding:8px 16px;text-align:center;}th{background:#f4f4f4;cursor:pointer}th.sorted,th:hover{background:#d4d4d4}
+    body{font:400 14px/21px Arial,serif}.example{width:100%;margin:36px auto;}table{font-size:1em;border-collapse:collapse;margin:0 auto;}tr{border-spacing:0;}table,td{text-align:center;padding:0 2px;height:50px;}th{background:#333;color:#FDFDFD;cursor:pointer;text-align:center;height:40px; padding:0 5px;}th.sorted,th:hover{background:black}
+/*    body{font:400 14px/21px Arial,serif}.example{width:100%;margin:50px auto;}table{font-size:1em;border-collapse:collapse;margin:0 auto}table,td,th{border:2px solid #999;padding:8px 16px;text-align:center;}th{background:#f4f4f4;cursor:pointer}th.sorted,th:hover{background:#d4d4d4}*/
 </style>
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1278032070'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/z_stat.php%3Fid%3D1278032070%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 </head>
@@ -30,7 +31,8 @@
 <!-- </head> -->
 <!-- <body style="zoom: 1;"> -->
 <div class="example ex-1">
-    <table>
+    <!-- <table id="show_table" style="visibility:hidden"> -->
+    <table id="show_table" style="visibility:hidden">
         <thead>
             <tr>
                 <th>用户头像</th>
@@ -56,6 +58,7 @@
             </tr>
         </tbody>
     </table>
+    <!-- <button id="login_out">注销</button> -->
 </div>
 
 <script type="text/javascript" src="https://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
